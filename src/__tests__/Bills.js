@@ -30,7 +30,10 @@ describe("Given I am connected as an employee", () => {
       await waitFor(() => screen.getByTestId("icon-window"));
       const windowIcon = screen.getByTestId("icon-window");
       //to-do write expect expression
+      const billIcon = screen.getByTestId("layout-icon1");
+      expect(billIcon).toHaveClass("active-icon");
     });
+
     test("Then bills should be ordered from earliest to latest", () => {
       document.body.innerHTML = BillsUI({ data: bills });
       const dates = screen
@@ -42,6 +45,21 @@ describe("Given I am connected as an employee", () => {
       const datesSorted = [...dates].sort(antiChrono);
 
       expect(dates).toEqual(datesSorted);
+    });
+
+    test("there are three bills refused", () => {
+      const refusedBills = BillsUI({ data: bills.status === "refused" });
+      expect(refusedBills.length).toBe(3);
+    });
+
+    test("there are two bills accepted", () => {
+      const acceptedBills = BillsUI({ data: bills.status === "accepted" });
+      expect(acceptedBills.length).toBe(2);
+    });
+
+    test("there is one bill pending", () => {
+      const pendingBills = BillsUI({ data: bills.status === "pending" });
+      expect(pendingBills.length).toBe(1);
     });
   });
 });
