@@ -92,32 +92,6 @@ const mockedBills = {
       pct: 20,
     });
   },
-
-  //Add a post
-  async post(request) {
-    const getData = await store.list();
-
-    return Promise.resolve({
-      data: [
-        ...getData.data,
-        {
-          id: "request.id",
-          status: "request.status",
-          pct: "request.pct",
-          amount: "request.amount",
-          email: "request.email",
-          name: "request.name",
-          vat: "request.vat",
-          fileName: "request.fileName",
-          date: "request.date",
-          commentAdmin: "request.commentAdmin",
-          commentary: "request.commentary",
-          type: "request.type",
-          fileUrl: "request.fileUrl",
-        },
-      ],
-    });
-  },
 };
 
 export default {
