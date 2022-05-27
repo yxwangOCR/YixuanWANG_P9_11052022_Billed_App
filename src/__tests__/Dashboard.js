@@ -110,6 +110,25 @@ describe('Given I am connected as an Admin', () => {
       })
       document.body.innerHTML = DashboardUI({ data: { bills } })
       const handleShowTickets1 = jest.fn((e) => dashboard.handleShowTickets(e, bills, 1))
+       const bill = {
+         id: "47qAXb6fIm2zOKkLzMro",
+         vat: "80",
+         fileUrl:
+           "https://firebasestorage.googleapis.com/v0/b/billable-677b6.a…f-1.jpg?alt=media&token=c1640e12-a24b-4b11-ae52-529112e9602a",
+         status: "pending",
+         type: "Hôtel et logement",
+         commentary: "séminaire billed",
+         name: "encore",
+         fileName: "preview-facture-free-201801-pdf-1.jpg",
+         date: "2004-04-04",
+         amount: 400,
+         commentAdmin: "ok",
+         email: "a@a",
+         pct: 20,
+       };
+      const handleEditTicket = jest.fn((e) =>
+        dashboard.handleEditTicket(e, bill, bills)
+      );
       const icon1 = screen.getByTestId('arrow-icon1')
       icon1.addEventListener('click', handleShowTickets1)
       userEvent.click(icon1)
