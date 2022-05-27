@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1653629176364" clover="3.2.0">
-  <project timestamp="1653629176364" name="All files">
+<coverage generated="1653633702838" clover="3.2.0">
+  <project timestamp="1653633702839" name="All files">
     <metrics statements="226" coveredstatements="190" conditionals="96" coveredconditionals="78" methods="69" coveredmethods="51" elements="391" coveredelements="319" complexity="0" loc="226" ncloc="226" packages="3" files="16" classes="16"/>
     <package name="constants">
       <metrics statements="8" coveredstatements="8" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
@@ -8,10 +8,10 @@
         <metrics statements="8" coveredstatements="8" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
         <line num="6" count="6" type="stmt"/>
         <line num="13" count="6" type="stmt"/>
-        <line num="14" count="32" type="cond" truecount="5" falsecount="0"/>
-        <line num="16" count="6" type="stmt"/>
+        <line num="14" count="67" type="cond" truecount="5" falsecount="0"/>
+        <line num="16" count="18" type="stmt"/>
         <line num="18" count="9" type="stmt"/>
-        <line num="20" count="3" type="stmt"/>
+        <line num="20" count="26" type="stmt"/>
         <line num="22" count="12" type="stmt"/>
         <line num="24" count="2" type="stmt"/>
       </file>
@@ -132,17 +132,17 @@
       </file>
       <file name="Login.js" path="/Users/dev/p9-OCR/YixuanWANG_P9_11052022_Billed_App/src/containers/Login.js">
         <metrics statements="41" coveredstatements="30" conditionals="4" coveredconditionals="0" methods="11" coveredmethods="5"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="8" count="3" type="stmt"/>
-        <line num="9" count="3" type="stmt"/>
-        <line num="10" count="3" type="stmt"/>
-        <line num="11" count="3" type="stmt"/>
-        <line num="12" count="3" type="stmt"/>
-        <line num="13" count="3" type="stmt"/>
-        <line num="14" count="3" type="stmt"/>
-        <line num="15" count="3" type="stmt"/>
-        <line num="16" count="3" type="stmt"/>
-        <line num="18" count="3" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
         <line num="19" count="2" type="stmt"/>
         <line num="20" count="2" type="stmt"/>
         <line num="26" count="2" type="stmt"/>
@@ -152,7 +152,7 @@
         <line num="33" count="2" type="stmt"/>
         <line num="34" count="2" type="stmt"/>
         <line num="35" count="2" type="stmt"/>
-        <line num="40" count="3" type="stmt"/>
+        <line num="40" count="4" type="stmt"/>
         <line num="41" count="2" type="stmt"/>
         <line num="42" count="2" type="stmt"/>
         <line num="48" count="2" type="stmt"/>
@@ -162,12 +162,12 @@
         <line num="55" count="2" type="stmt"/>
         <line num="56" count="2" type="stmt"/>
         <line num="57" count="2" type="stmt"/>
-        <line num="62" count="3" type="stmt"/>
+        <line num="62" count="4" type="stmt"/>
         <line num="63" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="64" count="0" type="stmt"/>
         <line num="69" count="0" type="stmt"/>
         <line num="72" count="0" type="stmt"/>
-        <line num="77" count="3" type="stmt"/>
+        <line num="77" count="4" type="stmt"/>
         <line num="78" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="79" count="0" type="stmt"/>
         <line num="88" count="0" type="stmt"/>
@@ -176,28 +176,28 @@
       </file>
       <file name="Logout.js" path="/Users/dev/p9-OCR/YixuanWANG_P9_11052022_Billed_App/src/containers/Logout.js">
         <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="5" count="20" type="stmt"/>
-        <line num="6" count="20" type="stmt"/>
-        <line num="7" count="20" type="stmt"/>
-        <line num="8" count="20" type="stmt"/>
-        <line num="11" count="20" type="stmt"/>
+        <line num="5" count="43" type="stmt"/>
+        <line num="6" count="43" type="stmt"/>
+        <line num="7" count="43" type="stmt"/>
+        <line num="8" count="43" type="stmt"/>
+        <line num="11" count="43" type="stmt"/>
         <line num="12" count="2" type="stmt"/>
         <line num="13" count="2" type="stmt"/>
       </file>
       <file name="NewBill.js" path="/Users/dev/p9-OCR/YixuanWANG_P9_11052022_Billed_App/src/containers/NewBill.js">
         <metrics statements="38" coveredstatements="34" conditionals="4" coveredconditionals="3" methods="8" coveredmethods="5"/>
-        <line num="6" count="2" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
-        <line num="8" count="2" type="stmt"/>
-        <line num="9" count="2" type="stmt"/>
-        <line num="10" count="2" type="stmt"/>
-        <line num="11" count="2" type="stmt"/>
-        <line num="12" count="2" type="stmt"/>
-        <line num="13" count="2" type="stmt"/>
-        <line num="14" count="2" type="stmt"/>
-        <line num="15" count="2" type="stmt"/>
-        <line num="16" count="2" type="stmt"/>
-        <line num="18" count="2" type="stmt"/>
+        <line num="6" count="25" type="stmt"/>
+        <line num="7" count="25" type="stmt"/>
+        <line num="8" count="25" type="stmt"/>
+        <line num="9" count="25" type="stmt"/>
+        <line num="10" count="25" type="stmt"/>
+        <line num="11" count="25" type="stmt"/>
+        <line num="12" count="25" type="stmt"/>
+        <line num="13" count="25" type="stmt"/>
+        <line num="14" count="25" type="stmt"/>
+        <line num="15" count="25" type="stmt"/>
+        <line num="16" count="25" type="stmt"/>
+        <line num="18" count="25" type="stmt"/>
         <line num="19" count="2" type="stmt"/>
         <line num="20" count="2" type="stmt"/>
         <line num="21" count="2" type="stmt"/>
@@ -212,14 +212,14 @@
         <line num="39" count="2" type="stmt"/>
         <line num="40" count="2" type="stmt"/>
         <line num="41" count="0" type="stmt"/>
-        <line num="43" count="2" type="stmt"/>
+        <line num="43" count="25" type="stmt"/>
         <line num="44" count="2" type="stmt"/>
         <line num="45" count="2" type="stmt"/>
         <line num="46" count="2" type="stmt"/>
         <line num="47" count="2" type="stmt"/>
         <line num="60" count="2" type="stmt"/>
         <line num="61" count="2" type="stmt"/>
-        <line num="65" count="2" type="stmt"/>
+        <line num="65" count="25" type="stmt"/>
         <line num="66" count="2" type="cond" truecount="1" falsecount="1"/>
         <line num="67" count="0" type="stmt"/>
         <line num="71" count="0" type="stmt"/>
@@ -238,12 +238,12 @@
         <line num="9" count="12" type="stmt"/>
         <line num="23" count="6" type="stmt"/>
         <line num="29" count="12" type="cond" truecount="4" falsecount="0"/>
-        <line num="35" count="12" type="cond" truecount="4" falsecount="0"/>
-        <line num="37" count="12" type="stmt"/>
-        <line num="54" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="35" count="14" type="cond" truecount="4" falsecount="0"/>
+        <line num="37" count="14" type="stmt"/>
+        <line num="54" count="14" type="cond" truecount="2" falsecount="0"/>
         <line num="55" count="2" type="stmt"/>
-        <line num="56" count="10" type="cond" truecount="2" falsecount="0"/>
-        <line num="57" count="2" type="stmt"/>
+        <line num="56" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="57" count="4" type="stmt"/>
         <line num="60" count="8" type="stmt"/>
       </file>
       <file name="DashboardFormUI.js" path="/Users/dev/p9-OCR/YixuanWANG_P9_11052022_Billed_App/src/views/DashboardFormUI.js">
@@ -261,7 +261,7 @@
       </file>
       <file name="ErrorPage.js" path="/Users/dev/p9-OCR/YixuanWANG_P9_11052022_Billed_App/src/views/ErrorPage.js">
         <metrics statements="1" coveredstatements="1" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="4" count="7" type="stmt"/>
+        <line num="4" count="9" type="stmt"/>
       </file>
       <file name="LoadingPage.js" path="/Users/dev/p9-OCR/YixuanWANG_P9_11052022_Billed_App/src/views/LoadingPage.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
@@ -269,19 +269,19 @@
       </file>
       <file name="LoginUI.js" path="/Users/dev/p9-OCR/YixuanWANG_P9_11052022_Billed_App/src/views/LoginUI.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="4" count="14" type="stmt"/>
+        <line num="4" count="26" type="stmt"/>
       </file>
       <file name="NewBillUI.js" path="/Users/dev/p9-OCR/YixuanWANG_P9_11052022_Billed_App/src/views/NewBillUI.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="5" count="5" type="stmt"/>
+        <line num="5" count="28" type="stmt"/>
       </file>
       <file name="VerticalLayout.js" path="/Users/dev/p9-OCR/YixuanWANG_P9_11052022_Billed_App/src/views/VerticalLayout.js">
         <metrics statements="6" coveredstatements="6" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
-        <line num="7" count="43" type="stmt"/>
-        <line num="8" count="43" type="cond" truecount="2" falsecount="0"/>
-        <line num="9" count="31" type="stmt"/>
-        <line num="11" count="43" type="cond" truecount="4" falsecount="0"/>
-        <line num="12" count="15" type="stmt"/>
+        <line num="7" count="68" type="stmt"/>
+        <line num="8" count="68" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="56" type="stmt"/>
+        <line num="11" count="68" type="cond" truecount="4" falsecount="0"/>
+        <line num="12" count="40" type="stmt"/>
         <line num="29" count="28" type="stmt"/>
       </file>
     </package>
