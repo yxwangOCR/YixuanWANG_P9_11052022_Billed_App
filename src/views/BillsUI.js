@@ -19,23 +19,39 @@ const row = (bill) => {
     </tr>
     `;
 };
-
 const rows = (data) => {
-  /*
-const billsSorted = data&& data.length ? data.sort((a, b) => new Date(b.date) - new Date(a.date)) : "";
-return data && data.length ? billsSorted.map(bill => row(bill)).join("") : "";
-*/
-
   return data && data.length ? data.map((bill) => row(bill)).join("") : "";
 };
 
 export default ({ data: bills, loading, error }) => {
   // recuperer la data
-
   const billsSorted = bills && bills.sort((a, b) => (a.date < b.date ? 1 : -1));
 
+  /*
+const billsSorted = data&& data.length ? data.sort((a, b) => new Date(b.date) - new Date(a.date)) : "";
+return data && data.length ? billsSorted.map(bill => row(bill)).join("") : "";
+*/
+  /*
   const modal = () => `
     <div class="modal fade" id="modaleFile" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Justificatif</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+*/
+  //Hugo: Ajout du data-testid="modaleFile"
+  const modal = () => `
+    <div  data-testid="modaleFile" class="modal fade" id="modaleFile" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div class="modal-content">
           <div class="modal-header">

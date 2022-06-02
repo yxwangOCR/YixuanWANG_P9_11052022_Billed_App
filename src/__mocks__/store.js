@@ -92,7 +92,6 @@ const mockedBills = {
       pct: 20,
     });
   },
-
   async get(bill) {
     return Promise.resolve({
       data: [
@@ -172,3 +171,5 @@ export default {
     //return {}
   },
 };
+
+

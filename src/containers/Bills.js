@@ -59,8 +59,8 @@ export default class {
               };
             }
           });
-          console.log(bills);
-          console.log("length", bills.length);
+          //console.log(bills);
+          //console.log("length", bills.length);
           return bills;
         });
     }
